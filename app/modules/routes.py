@@ -66,8 +66,9 @@ def diagram():
     print('значения', diagram_date)
     return jsonify(diagram_date)
 
-@app.route('/api/pageSearche', methods=['GET','POST'])
-def pageSeache():
+@app.route('/api/searche', methods=['GET','POST'])
+def searche():
+    print('Запрос')
     wikipedia.set_lang("ru")
     print('step1')
     json_locations_information = []
