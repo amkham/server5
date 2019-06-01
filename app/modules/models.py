@@ -10,7 +10,7 @@ class Category(db.Model):
 class Criterion(db.Model):
     __tablename__ = 'criterions'
 
-    id = db.Column(db.Integer, primary_key=True, server_default=db.text("nextval('criterias_id_seq'::regclass)"))
+    id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String)
     categories_id = db.Column(db.ForeignKey('categories.id', ondelete='CASCADE', onupdate='CASCADE'))
     categories = db.relationship('Category')
@@ -40,7 +40,7 @@ class Subject(db.Model):
 class Statistic(db.Model):
     __tablename__ = 'statistic'
 
-    id = db.Column(db.Integer, primary_key=True, unique=True, server_default=db.text("nextval('statistic_id_seq'::regclass)"))
+    id = db.Column(db.Integer, primary_key=True)
     value = db.Column(db.Integer)
     date = db.Column(db.Integer)
     criterions_id = db.Column(db.ForeignKey('criterions.id', ondelete='CASCADE', onupdate='CASCADE'))
