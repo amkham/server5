@@ -7,7 +7,7 @@ from flask_heroku import Heroku
 
 app = Flask(__name__)
 CORS(app)
-app.config.from_object(Config)
+#app.config.from_object(Config)
 db = SQLAlchemy(app)
 heroku = Heroku(app)
 migrate = Migrate(app, db)
