@@ -32,7 +32,7 @@ class Location(db.Model):
 class Subject(db.Model):
     __tablename__ = 'subject'
 
-    id = db.Column(db.Integer, primary_key=True, server_default=db.text("nextval('subject_id_seq'::regclass)"))
+    id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String)
     kod = db.Column(db.String, unique=True)
 
