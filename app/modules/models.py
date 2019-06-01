@@ -1,6 +1,11 @@
 # coding: utf-8
 from app import db
 
+class Category(db.Model):
+    __tablename__ = 'categories'
+
+    id = db.Column(db.Integer, primary_key=True)
+    value = db.Column(db.Integer)
 
 class Criterion(db.Model):
     __tablename__ = 'criterions'
