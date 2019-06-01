@@ -1,11 +1,6 @@
 # coding: utf-8
 from app import db
 
-class Category(db.Model):
-    __tablename__ = 'categories'
-
-    id = db.Column(db.Integer, primary_key=True, unique=True, server_default=db.text("nextval('categories_id_seq'::regclass)"))
-    value = db.Column(db.Integer)
 
 class Criterion(db.Model):
     __tablename__ = 'criterions'
