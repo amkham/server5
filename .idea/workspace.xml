@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a00bbe02-280b-4f41-a0d7-e768519f2648" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/modules/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/modules/models.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
@@ -85,8 +86,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/modules/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+            <state relative-caret-position="17">
+              <caret line="6" column="125" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="126" />
             </state>
           </provider>
         </entry>
@@ -132,12 +133,6 @@
               <item name="server5" type="b2602c69:ProjectViewProjectNode" />
               <item name="server5" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server5" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -187,7 +182,7 @@
       <option name="presentableId" value="Default" />
       <updated>1559347081868</updated>
       <workItem from="1559347083201" duration="5603000" />
-      <workItem from="1559374040465" duration="13354000" />
+      <workItem from="1559374040465" duration="14381000" />
     </task>
     <task id="LOCAL-00001" summary="sad">
       <created>1559389613589</created>
@@ -210,11 +205,25 @@
       <option name="project" value="LOCAL" />
       <updated>1559390262591</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="sad">
+      <created>1559390653275</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1559390653275</updated>
+    </task>
+    <task id="LOCAL-00005" summary="sad">
+      <created>1559390808140</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1559390808141</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18957000" />
+    <option name="totallyTimeSpent" value="19984000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -290,8 +299,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/modules/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+        <state relative-caret-position="17">
+          <caret line="6" column="125" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="126" />
         </state>
       </provider>
     </entry>
